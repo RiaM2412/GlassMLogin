@@ -1,24 +1,25 @@
 .wrapper{
+    margin: 0px;
     position: relative;
-    width: 1440px;
-    height: 1024px;
-
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #66ccff 0%, #ff66cc 100%);
     filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
     
     }
 #background-img{
     position: absolute;
-    width: 4003px;
-    height: 2230px;
-    left: -1280px;
-    top: -988px;
+    /* width: 100%;
+    height: 100%; */
+    /* left: -1280px;
+    top: -988px; */
     }
 .form-wrapper{
     position: absolute;
-    width: 800px;
-    height: 950px;
-    left: 1800px;
-    top: 128px;
+    width: 440px;
+    height: 520px;
+    left: 800px;
+    top: 50px;
 
     /* background: linear-gradient(157.3deg, #FFF9F9 1.71%, rgba(119, 3, 3, 0) 98.86%);
     border: 1px solid #FFF5F5;
@@ -50,45 +51,47 @@
 }
 #header{
     position: absolute;
-    width: 268px;
-    height: 20px;
-    left: 50px;
-    top: 20px;
+    width: 200px;
+    height:15px;
+    left: 30px;
+    top: -20px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
+    font-weight: 500;
+    font-size: 36px;
     line-height: 107px;
 
     color: #000000;
 }
 p{
     position: absolute;
-    width: 400px;
+    width: 344px;
     height: 60px;
-    left: 50px;
-    top: 150px;
+    left: 30px;
+    top: 70px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 36px;
+
 
     color: #000000;
 }
+/* your name */
 #label1{
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 48px;
-    left: 50px;
-    top: 368px;
-    
-    font-family: Oswald;
+    left: 30px;
+    top: 150px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 36px;
     display: flex;
     align-items: center;
@@ -97,133 +100,401 @@ p{
     color: #000000;
     
 }
+/* Email */
 #label2{
     position: absolute;
-    width: 107px;
+    width: 150px;
     height: 48px;
-    left: 50px;
-    top: 470px;
+    left: 30px;
+    top: 250px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-}
-#label3{
-    position: absolute;
-    width: 107px;
-    height: 38px;
-    left: 50px;
-    top: 572px;
-
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-}
-#label4{
-    position: absolute;
-    width: 366px;
-    height: 48px;
-    left: 50px;
-    top: 666px;
-
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 36px;
     display: flex;
     align-items: center;
     text-align: center;
+    color: #000000;
+}
+/* Password */
+#label3{
+    position: absolute;
+    width: 150px;
+    height: 48px;
+    left: 30px;
+    top: 300px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+/* confirm password */
+#label4{
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    left: 30px;
+    top: 350px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    text-align: left;
+
+    color: #000000;
+}
+#phone{
+    position: absolute;
+    width: 150px;
+    height: 48px;
+    left: 30px;
+    top: 190px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    text-align: left;
 
     color: #000000;
 }
 #Signup-btn{
     position: absolute;
-    width: 189px;
-    height: 67px;
-    left: 350px;
-    top: 767px;
+    width: 100px;
+    height: 47px;
+    left: 310px;
+    top: 430px;
 
     background: #6639E7;
     border-radius: 12px;
-    font-size: 36px;
+    font-size: 24px;
 }
 #signup-btn:focus{
     outline: none;
 }
+/* your name input box */
 #input-box1{
     position: absolute;
-width: 400px;
-height: 48px;
-left: 350px;
-top: 367px;
+    width: 250px;
+    height: 30px;
+    left: 160px;
+    top: 160px;
 
-background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
-border: 1px solid #FFFEFE;
-box-sizing: border-box;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-border-radius: 12px;
-font-size: 36px;
-padding: 16px;
-
-}
-#input-box2{
-    position: absolute;
-    width: 400px;
-    height: 48px;
-    left: 350px;
-    top: 467px;
-
-    background: linear-gradient(91.41deg, #F5F1F1 0%, rgba(245, 241, 241, 0) 100%);
-    border: 1px solid #FFFDFD;
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
-    border-radius: 12px;
-    font-size: 36px;
-    padding: 16px;
-}
-#input-box3{
-    position: absolute;
-    width: 400px;
-    height: 48px;
-    left: 350px;
-    top: 567px;
-
-    background: linear-gradient(91.12deg, #FAEDED -1.56%, rgba(250, 237, 237, 0) 100%);
-    border: 1px solid #FFFCFC;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
-    font-size: 36px;
-    padding: 16px;
-}
-#input-box4{
-    position: absolute;
-    width: 400px;
-    height: 48px;
-    left: 350px;
-    top: 666px;
-
-    background: linear-gradient(91.48deg, #FEF4F4 4.46%, rgba(254, 244, 244, 0) 100%);
+    background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
     border: 1px solid #FFFEFE;
     box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
-    font-size: 36px;
+    font-size: 20px;
     padding: 16px;
+
+}
+/* email input b0x */
+#input-box2{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 160px;
+    top: 250px;
+
+    background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
+    border: 1px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 10px;
+}
+/* Password inbox */
+#input-box3{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 160px;
+    top: 300px;
+
+    background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
+    border: 1px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 10px;
+}
+/* confirm password input box */
+#input-box4{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 160px;
+    top: 350px;
+
+    background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
+    border: 1px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 20px;
 }
 #input-box1:focus{outline: none;}
 #input-box2:focus{outline: none;}
 #input-box3:focus{outline: none;}
 #input-box4:focus{outline: none;}
+#contactno:focus{outline: none;}
+#contactno{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 160px;
+    top: 190px;
+
+    background: linear-gradient(91.41deg, #F4F4F4 -14.67%, rgba(255, 252, 252, 0) 85.33%);
+    border: 1px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 16px;
+    margin-top: 20px;
+}
+@media (max-width: 600px){
+    .wrapper{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        
+        background: linear-gradient(197.56deg, rgba(255, 232, 22, 0.5) 0%, rgba(255, 255, 255, 0.174722) 49.77%, rgba(255, 254, 248, 0) 100%), linear-gradient(162.44deg, #8B5CC7 0%, rgba(255, 108, 240, 0.66) 0.01%, rgba(40, 0, 91, 0.83) 100%), conic-gradient(from -45deg at 50% 50%, rgba(177, 130, 238, 0.7) 0deg, rgba(251, 55, 219, 0.4) 1.27deg, rgba(206, 139, 237, 0.59) 118.12deg, #D87ACE 271.87deg, rgba(177, 130, 238, 0.7) 360deg);
+        
+        }
+   
+    .form-wrapper{
+        position: absolute;
+        position: absolute;
+        width: 345px;
+        height: 550px;
+        left:5px;
+        top: 5px;
+
+        background: linear-gradient(163.05deg, rgba(255, 221, 250, 0.53) 0%, rgba(197, 122, 255, 0.4187) 100%);
+        border: 1.5px solid #FFFFFF;
+        box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+            
+    }
+    #header{
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        left: 20px;
+        top: -10px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+
+        color: #000000;
+
+    }
+    p{
+        position: absolute;
+        width: 300px;
+        height: 19px;
+        left: 20px;
+        top: 50px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+    /* your name */
+    #label1{
+        position: absolute;
+        width: 300px;
+        height: 21px;
+        left: 20px;
+        top: 120px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000;
+        
+        
+    }
+    /* Email */
+    #label2{
+        position: absolute;
+        width: 189px;
+        height: 30px;
+        left: 20px;
+        top: 190px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000;
+        
+    }
+    /* Password */
+    #label3{
+        position: absolute;
+        width: 112px;
+        height: 28px;
+        left: 20px;
+        top: 330px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000; 
+    }
+    /* confirm password */
+    #label4{
+        position: absolute;
+        width: 203px;
+        height: 28px;
+        left: 20px;
+        top: 390px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+    }
+    #phone{
+        position: absolute;
+        width: 107px;
+        height: 28px;
+        left: 20px;
+        top: 250px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+    }
+    #Signup-btn{
+        position: absolute;
+        width: 116px;
+        height: 40px;
+        left: 174px;
+        top: 480px;
+
+        background: rgba(25, 72, 239, 0.81);
+        box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    #signup-btn:focus{
+        outline: none;
+    }
+    /* your name input box */
+    #input-box1{
+        position: absolute;
+        width: 268px;
+        height: 25px;
+        left: 20px;
+        top: 150px;
+
+        background: rgba(255, 234, 234, 0.64);
+        border-radius: 4px;
+
+    
+    }
+    /* email input b0x */
+    #input-box2{
+        position: absolute;
+        width: 268px;
+        height: 30px;
+        left: 20px;
+        top: 210px;
+        
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 4px;
+    }
+    /* Password inbox */
+    #input-box3{
+        position: absolute;
+        width: 257px;
+        height: 30px;
+        left: 20px;
+        top: 350px;
+
+        background: #EADBF5;
+        border-radius: 4px;
+    }
+    /* confirm password input box */
+    #input-box4{
+        position: absolute;
+        width: 268px;
+        height: 30px;
+        left: 20px;
+        top: 410px;
+
+        background: #E6C2FD;
+        border-radius: 4px;
+    }
+    #input-box1:focus{outline: none;}
+    #input-box2:focus{outline: none;}
+    #input-box3:focus{outline: none;}
+    #input-box4:focus{outline: none;}
+    #contactno:focus{outline: none;}
+    #contactno{
+        position: absolute;
+        width: 262px;
+        height: 25px;
+        left: 20px;
+        top: 270px;
+        
+        background: rgba(247, 228, 255, 0.87);
+        border-radius: 4px;
+    }
+
+
+}

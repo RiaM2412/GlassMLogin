@@ -1,50 +1,42 @@
  .wrapper{ 
 
-margin: 0px;
-position: relative;
-width: 1440px;
-height: 1024px;
+    margin: 0px;
+    position: relative;
+    width:100vw;
+    height: 100vh;
 
-background: #FFFFFF;
-box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom right, #66ccff 0%, #ff99cc 100%);
+    box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.05);
 
 } 
-#background-img{
-    position: absolute;
-    width: 4003px;
-    height: 2230px;
-    left: -1280px;
-    top: -988px;
 
-}
 .form-wrapper{
     position: absolute;
-    width: 800px;
-    height: 950px;
-    left: 1800px;
-    top: 128px;
+    width: 440px;
+    height: 520px;
+    left: 800px;
+    top: 50px;
     
-    /* background: radial-gradient(96.78% 94.56% at 3.22% 3.67%, #FFFDFD 0%, rgba(255, 253, 253, 0) 100%);
-    box-shadow: 20px 40px 50px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 52px; */
-    /* background: linear-gradient(150.68deg, #F0E0E0 7.91%, rgba(237, 133, 133, 0) 98.86%);
-    box-shadow: 20px 40px 50px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 52px; */
-    background: linear-gradient(150.68deg, #F5E3E3 7.91%, rgba(240, 201, 201, 0) 98.86%);
-    box-shadow: 20px 40px 50px 20px rgba(0, 0, 0, 0.05);
+   
+    
+    background: linear-gradient(151.42deg, #E0D6FF 3.43%, rgba(236, 154, 159, 0.69) 100%);
+    border: 2px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.05);
     border-radius: 52px;
+
 }
 #header{
     position: absolute;
-    width: 100px;
-    height: 20px;
-    left: 50px;
-    top: 20px;
+    width: 80px;
+    height:15px;
+    left: 30px;
+    top: -20px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
+    font-weight: 500;
+    font-size: 36px;
     line-height: 107px;
 
     color: #000000;
@@ -53,13 +45,13 @@ p{
     position: absolute;
     width: 344px;
     height: 60px;
-    left: 50px;
-    top: 150px;
+    left: 30px;
+    top: 70px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 16px;
     line-height: 36px;
 
     color: #000000;
@@ -68,13 +60,13 @@ p{
     position: absolute;
     width: 300px;
     height: 48px;
-    left: 50px;
-    top: 310px;
+    left: 30px;
+    top: 150px;
 
-    font-family: Oswald;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 36px;
     display: flex;
     align-items: center;
@@ -85,11 +77,14 @@ p{
 }
 #input-box{
     position: absolute;
-    width: 462px;
+    width: 370px;
     height: 40px;
-    left: 50px;
-    top: 360px;
-    
+    left: 30px;
+    top: 200px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     background: linear-gradient(90.81deg, #FFFEFE 0%, rgba(255, 254, 254, 0) 99.77%);
     filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.05));
     border-radius: 12px;
@@ -107,13 +102,13 @@ p{
     position: absolute;
     width: 200px;
     height: 48px;
-    left: 50px;
-    top: 440px;
+    left: 30px;
+    top: 280px;
 
     font-family: Oswald;
     font-style: normal;
-    font-weight: 540;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 36px;
     display: flex;
     align-items: center;
@@ -122,10 +117,14 @@ p{
 }
 #input-box2{
     position: absolute;
-    width: 462px;
+    width: 370px;
     height: 40px;
-    left: 50px;
-    top: 490px;
+    left: 30px;
+    top: 330px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
     
     background: linear-gradient(90.81deg, #FFFEFE 0%, rgba(255, 254, 254, 0) 99.77%);
     filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.05));
@@ -142,17 +141,302 @@ p{
 }
 #login-btn{
     position: absolute;
-    width: 189px;
-    height: 67px;
-    left: 55px;
-    top: 600px;
-    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: 420px;
+    font-size: 24px;
     font-weight: 500;
+    /* border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px; */
 
-    background: #3666ec;
+    background: #3e7abee7;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
+    border-radius: 20px;
 }
 #login-btn:focus{
     outline: none;
 }
+
+/* for mobile view */
+
+@media (max-width:600px){
+    .wrapper{ 
+
+        margin: 0px;
+    position: relative;
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+
+    background: linear-gradient(to bottom right, #66ccff 0%, #ff99cc 100%);
+    box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.05);
+
+    } 
+    .form-wrapper{
+        position: absolute;
+        width: 320px;
+        height: 450px;
+        left:20px;
+        top: 80px;
+
+        background: linear-gradient(344.85deg, #FF60EF 3.5%, #FCABFE 35.16%, #F0C4FF 55.62%, #57E7F0 100%);
+        /* mix-blend-mode: soft-light; */
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        /* filter: blur(1px); */
+        border-radius: 42px;
+    }
+    #header{
+        position: absolute;
+        width: 81px;
+        height: 40px;
+        left: 30px;
+        top: 10px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 530;
+        font-size: 36px;
+        line-height: 35px;
+
+        color: #000000;
+
+
+     } 
+     p{
+        position: absolute;
+        width: 200px;
+        height: 17px;
+        left: 30px;
+        top: 65px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 10px;
+        font-size: 16px;
+        line-height: 15px;
+        
+        color: #000000;
+     }
+     #label{
+        position: absolute;
+        width: 208px;
+        height: 22px;
+        left: 30px;
+        top: 150px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+        
+        
+        color: #000000;
+     }
+     #input-box{
+        position: absolute;
+        width: 245px;
+        height: 35px;
+        left: 30px;
+        top: 185px;
+
+        background: linear-gradient(91.31deg, rgba(255, 255, 255, 0.35) 0%, rgba(238, 146, 250, 0.650625) 99.99%, rgba(255, 248, 254, 0) 100%);
+        border: 1px solid rgba(255, 252, 252, 0.64);
+        box-sizing: border-box;
+        border-radius: 12px;
+        
+     }
+     #label2{
+        position: absolute;
+        width: 118px;
+        height: 22px;
+        left: 30px;
+        top: 250px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000;
+     }
+     #input-box2{
+        position: absolute;
+        width: 245px;
+        height: 35px;
+        left: 30px;
+        top: 280px;
+
+        background: linear-gradient(91.31deg, rgba(255, 255, 255, 0.35) 0%, rgba(238, 146, 250, 0.650625) 99.99%, rgba(255, 248, 254, 0) 100%);
+        border: 1px solid rgba(255, 252, 252, 0.64);
+        box-sizing: border-box;
+        border-radius: 12px;
+    
+    }
+    #input-box2:hover{
+        outline: none;
+    }
+    #input-box2:focus{
+        outline: none;
+    }
+    #login-btn{
+        position: absolute;
+        width: 111px;
+        height: 37px;
+        left: 30px;
+        top: 350px;
+        
+        background: #2175D9;
+        border-radius: 12px;
+
+    }
+    #login-btn:focus{
+        outline: none;
+    }
+
+}
+/* @media (min-width: 768px){
+    .wrapper{ 
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+
+        background: radial-gradient(55.56% 137.78% at 51.95% 44.44%, #DCF3FB 0%, rgba(112, 168, 234, 0) 100%), radial-gradient(56.72% 179.26% at 56.72% 53.47%, #FFFFFF 0%, rgba(255, 22, 22, 0.03) 100%), linear-gradient(286.91deg, rgba(59, 143, 179, 0.38) 0.91%, #11B8FF 98.97%), radial-gradient(98.59% 311.6% at 98.59% 95.14%, #FF00E5 0%, #F9C1C1 46.4%);
+
+      
+    } 
+    .form-wrapper{
+        position: absolute;
+        width: 600px;
+        height: 325px;
+        left: 20px;
+        top: 20px;
+
+        background: linear-gradient(105.15deg, rgba(138, 210, 250, 0.8) 0%, rgba(251, 208, 208, 0.29) 100%);
+        box-shadow: 10px 14px 25px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+
+        
+    }
+    #header{
+        position: absolute;
+        width: 112px;
+        height: 41px;
+        left: 17px;
+        top: -10px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #000000;
+     } 
+     p{
+        position: absolute;
+        width: 200px;
+        height: 18px;
+        left: 17px;
+        top: 50px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #000000;
+     }
+     #label{
+        position: absolute;
+        width: 200px;
+        height: 25px;
+        left: 17px;
+        top: 138px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000;
+        
+        
+     }
+     #input-box{
+        position: absolute;
+        width: 372px;
+        height: 23px;
+        left: 170px;
+        top: 140px;
+        
+        background: rgba(255, 253, 253, 0.63);
+        border-radius: 8px;
+     }
+     #label2{
+        position: absolute;
+        width: 118px;
+        height: 23px;
+        left: 17px;
+        top: 200px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000;
+     }
+     #input-box2{
+        position: absolute;
+        width: 372px;
+        height: 23px;
+        left: 170px;
+        top: 200px;
+
+        background: rgba(255, 245, 245, 0.54);
+        border-radius: 8px;
+
+    
+    }
+    #input-box2:hover{
+        outline: none;
+    }
+    #input-box2:focus{
+        outline: none;
+    }
+    #login-btn{
+        position: absolute;
+        width: 119px;
+        height: 39px;
+        left: 435px;
+        top: 250px;
+        
+        background: rgba(7, 90, 255, 0.925);
+        box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+    }
+    #login-btn:focus{
+        outline: none;
+    }
+
+} */
+
+
+
+
+
+
+/* Fonts ::after
+1). Roboto
+2). popines
+3). raleway
+4). monstrate */
