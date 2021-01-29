@@ -178,9 +178,9 @@ p{
     .form-wrapper{
         position: absolute;
         width: 320px;
-        height: 450px;
+        height: 480px;
         left:20px;
-        top: 80px;
+        top: 40px;
 
         background: linear-gradient(344.85deg, #FF60EF 3.5%, #FCABFE 35.16%, #F0C4FF 55.62%, #57E7F0 100%);
         /* mix-blend-mode: soft-light; */
@@ -300,7 +300,7 @@ p{
     }
 
 }
-/* @media (min-width: 768px){
+ @media only screen and (max-width: 720px) and (orientation: landscape){
     .wrapper{ 
         position: relative;
         width: 100vw;
@@ -428,7 +428,7 @@ p{
         outline: none;
     }
 
-} */
+} 
 
 
 

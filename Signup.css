@@ -281,27 +281,28 @@ p{
     padding: 16px;
     margin-top: 20px;
 }
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
     .wrapper{
         position: relative;
         width: 100vw;
         height: 100vh;
         
-        background: linear-gradient(197.56deg, rgba(255, 232, 22, 0.5) 0%, rgba(255, 255, 255, 0.174722) 49.77%, rgba(255, 254, 248, 0) 100%), linear-gradient(162.44deg, #8B5CC7 0%, rgba(255, 108, 240, 0.66) 0.01%, rgba(40, 0, 91, 0.83) 100%), conic-gradient(from -45deg at 50% 50%, rgba(177, 130, 238, 0.7) 0deg, rgba(251, 55, 219, 0.4) 1.27deg, rgba(206, 139, 237, 0.59) 118.12deg, #D87ACE 271.87deg, rgba(177, 130, 238, 0.7) 360deg);
-        
+       
+        background: linear-gradient(to bottom right, #66ccff 0%, #ff99cc 100%);
         }
    
     .form-wrapper{
         position: absolute;
         position: absolute;
-        width: 345px;
-        height: 550px;
-        left:5px;
-        top: 5px;
+        width: 325px;
+        height: 520px;
+        left:15px;
+        top: 12px;
 
-        background: linear-gradient(163.05deg, rgba(255, 221, 250, 0.53) 0%, rgba(197, 122, 255, 0.4187) 100%);
+        /* background: linear-gradient(163.05deg, rgba(255, 221, 250, 0.53) 0%, rgba(197, 122, 255, 0.4187) 100%); */ 
+        background: linear-gradient(344.85deg, #FF60EF 3.5%, #FCABFE 35.16%, #F0C4FF 55.62%, #57E7F0 100%);
         border: 1.5px solid #FFFFFF;
-        box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.05);
+        box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.25);
         border-radius: 12px;
             
     }
@@ -425,7 +426,7 @@ p{
         width: 116px;
         height: 40px;
         left: 174px;
-        top: 480px;
+        top: 475px;
 
         background: rgba(25, 72, 239, 0.81);
         box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.05);
@@ -496,5 +497,246 @@ p{
         border-radius: 4px;
     }
 
+
+}
+@media only screen and (max-width: 720px) and (orientation: landscape){
+    .wrapper{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        
+       
+        background: linear-gradient(to bottom right, #66ccff 0%, #ff99cc 100%);
+    }
+    .form-wrapper{
+        /* position: absolute; */
+        position: absolute;
+        width: 500px;
+        height: 320px;
+        left:50px;
+        top: 20px;
+
+        /* background: linear-gradient(163.05deg, rgba(255, 221, 250, 0.53) 0%, rgba(197, 122, 255, 0.4187) 100%); */ 
+        background: linear-gradient(344.85deg, #FF60EF 3.5%, #FCABFE 35.16%, #F0C4FF 55.62%, #57E7F0 100%);
+        border: 1.5px solid #FFFFFF;
+        box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
+     #header{
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        left: 10px;
+        top: -20px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 540;
+        font-size: 30px;
+        line-height: 42px;
+
+        color: #000000;
+
+    }
+    p{
+        position: absolute;
+        width: 300px;
+        height: 19px;
+        left: 10px;
+        top: 30px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        color: #000000;
+    }
+    /* your name */
+    #label1{
+        position: absolute;
+        width: 300px;
+        height: 21px;
+        left: 10px;
+        top: 75px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 28px;
+        
+        color: #000000;
+        
+        
+    }
+    /* Email */
+    #label2{
+        position: absolute;
+        width: 189px;
+        height: 30px;
+        left: 10px;
+        top: 110px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 28px;
+        
+        color: #000000;
+        
+    }
+    /* Password */
+    #label3{
+        position: absolute;
+        width: 112px;
+        height: 28px;
+        left: 10px;
+        top: 150px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #000000; 
+    }
+    /* confirm password */
+    #label4{
+        position: absolute;
+        width: 203px;
+        height: 28px;
+        left: 10px;
+        top: 180px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+    }
+    #phone{
+        position: absolute;
+        width: 107px;
+        height: 28px;
+        left: 10px;
+        top: 220px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+    }
+    #Signup-btn{
+        position: absolute;
+        width: 116px;
+        height: 40px;
+        left: 174px;
+        top: 270px;
+
+        background: rgba(63, 215, 241, 0.651);
+        box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    #signup-btn:focus{
+        outline: none;
+    }
+    /* your name input box */
+    #input-box1{
+        position: absolute;
+        width: 270px;
+        height: 10px;
+        left: 200px;
+        top: 70px;
+
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+        padding-top: 10;
+    }
+    /* email input b0x */
+    #input-box2{
+        position: absolute;
+        width: 270px;
+        height: 10px;
+        left: 200px;
+        top: 100px;
+        
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+
+    }
+    /* Password inbox */
+    #input-box3{
+        position: absolute;
+        width: 270px;
+        height: 10px;
+        left: 200px;
+        top: 140px;
+
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+    }
+    /* confirm password input box */
+    #input-box4{
+        position: absolute;
+        width: 270px;
+        height: 30px;
+        left: 200px;
+        top: 170px;
+
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+    }
+    #input-box1:focus{outline: none;}
+    #input-box2:focus{outline: none;}
+    #input-box3:focus{outline: none;}
+    #input-box4:focus{outline: none;}
+    #contactno:focus{outline: none;}
+    /* #input-box1:hover{outline:invert;}
+    #input-box2:hover{outline: none;}
+    #input-box3:hover{outline: none;}
+    #input-box4:hover{outline: none;}
+    #contactno:hover{outline: none;} */
+    #contactno{
+        position: absolute;
+        width: 270px;
+        height: 25px;
+        left: 200px;
+        top: 210px;
+        
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+    }
+ 
 
 }
