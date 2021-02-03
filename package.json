@@ -1,0 +1,9 @@
+{
+  "name": "glassmorphism",
+  "version": "1.0.0",
+  "description": "login page design and different orientation",
+  "main": "index.js",
+  "repository": "https://github.com/RiaM2412/GlassMLogin.git",
+  "author": "Ria",
+  "license": "MIT"
+}
