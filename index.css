@@ -5,7 +5,9 @@
     width:100vw;
     height: 100vh;
 
-    background: linear-gradient(to bottom right, #66ccff 0%, #ff99cc 100%);
+    /* background: linear-gradient(116.82deg, #D8E2FE 0%, rgba(214, 164, 164, 0.17) 37.5%, rgba(164, 183, 237, 0.24) 69.27%, rgba(227, 160, 160, 0.47) 98.6%); */
+    /* background: linear-gradient(116.31deg, #FF0000 0%, #FF7A00 49.67%, #FFE816 99.34%, rgba(255, 230, 0, 0.54) 99.34%, #FFE816 99.34%); */
+    background: linear-gradient(180.55deg, #2BFF09 -4.13%, rgba(23, 149, 114, 0.8) 21.18%, rgba(7, 17, 255, 0.6) 49.2%, rgba(99, 67, 144, 0.41) 72.9%, rgba(255, 170, 6, 0.53) 99.3%);background: linear-gradient(63.55deg, #2BFF09 -4.13%, rgba(23, 149, 114, 0.8) 21.18%, rgba(7, 17, 255, 0.6) 49.2%, rgba(99, 67, 144, 0.41) 72.9%, rgba(255, 170, 6, 0.53) 99.3%);
     box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.05);
     
 
@@ -15,16 +17,22 @@
     position: absolute;
     width: 440px;
     height: 520px;
-    /* left: 800px;
-    top: 50px; */
-    display: flex;
-    align-content: center;
+    left: 800px; 
+    top: 50px;
+    /* display: flex;
+    align-content: center; */
    
     
-    background: linear-gradient(151.42deg, #E0D6FF 3.43%, rgba(236, 154, 159, 0.69) 100%);
+    /* background: linear-gradient(151.42deg, #E0D6FF 3.43%, rgba(236, 154, 159, 0.69) 100%); */
+    /* background: linear-gradient(116.82deg, #d8e2fe94 0%, #8a8ac059 37.5%, rgba(164, 183, 237, 0.329) 69.27%, rgba(227, 160, 160, 0.37) 98.6%);
     border: 2px solid #FFFEFE;
     box-sizing: border-box;
-    box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.035); */
+    background: linear-gradient(208.45deg, rgba(255, 216, 188, 0.19) 0%, rgba(113, 195, 255, 0) 100%);
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.4);
+
     border-radius: 52px;
 
 }
